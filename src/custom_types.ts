@@ -1,4 +1,8 @@
-let drawPoint = (point: {x:number, y:number}) => {
+interface Point {
+    x:number;
+    y:number;
+};
+let drawPoint = (point: Point) => {
     console.log(point);
 }
 
