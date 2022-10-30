@@ -1,4 +1,4 @@
-let drawPoint = (point) {
+let drawPoint = (point: {x:number, y:number}) => {
     console.log(point);
 }
 
