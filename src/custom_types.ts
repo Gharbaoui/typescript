@@ -6,14 +6,9 @@ class Point {
         this.y = y;
     }
     draw() {
-        // console.log(`{ ${this.x}, ${this.y} }`)
+        console.log(`{ ${this.x}, ${this.y} }`)
     }
 };
 
-let drawPoint = (point: Point) => {
-    console.log(point);
-}
-
 const p = new Point(1, 3);
-
-drawPoint(p);
+p.draw();
